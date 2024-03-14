@@ -1,0 +1,93 @@
+.btn{
+    margin-top: 2%;
+}
+.btn button{
+    padding: 1%;
+    background-color: burlywood;
+    border-radius: 10%;
+}
+#table{
+    border: 2px solid black;
+    margin-top: 5%;
+    width: 100%;
+    border-collapse:collapse;
+    box-sizing: border-box;
+    table-layout:fixed;
+}
+th{
+    border: 2px solid black;
+    background-color: burlywood;
+   
+    
+    
+}
+td{
+    border: 2px solid black;
+    background-color: antiquewhite;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    
+}
+#edit, #delete{
+    width: 40%;
+    padding: 2%;
+    background-color: burlywood;
+    border-radius: 10%;
+
+}
+.model{
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: none;
+}
+#name-field,#description-field,#image-field{
+    margin-bottom: 5%;
+    width: 50%;
+}
+.model a{
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    right: 20px;
+    font-weight: bold;
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 2px solid black; */
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
+#add,#cancel{
+    width: 100%;
+    padding: 2%;
+    background-color: burlywood;
+    border-radius: 10%;
+}
+.content{
+    width: 50%;
+    /* border: 2px solid black; */
+    margin: auto;
+    background-color:bisque;
+    height: 100%;
+    padding-top: 2%;
+    box-sizing: border-box;
+    
+}
+
+#add,#cancel, button:hover{
+    cursor: pointer;
+}
+
+.update_button,.delete_button{
+    padding: 2%;
+    background-color: burlywood;
+    border-radius: 10%;
+    width: 40%;
+    margin-left:2%;
+}

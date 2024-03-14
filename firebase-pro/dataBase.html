@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dataBase.css">
+</head>
+<body>
+    
+
+    <div id="add_popup" class="model">
+        <div>
+            <a href="#" class="close">X</a>
+        </div>
+        <div class="content">
+            <div>
+                <form>
+                    
+                        <label>Name</label>
+                        <div><input type="text" id="name-field"></div>
+                    </div>
+                    <div>
+                        <label>Description</label>
+                        <div><textarea name="" id="description-field" cols="30" rows="10"></textarea></div>
+                    </div>
+                    <div>
+                        <label>Image url</label>
+                        <div><input type="text" id="image-field"></div>
+                    </div>
+                    <div>
+                        <label>Price</label>
+                        <div><input type="text" id="price-field"></div>
+                    </div>
+                    <div class="buttons">
+                        <div style="width: 25%;">
+                            <button id="add">Add Data</button>
+                        </div>
+                        <div style="width: 25%;">
+                            <button id="cancel">Cancel</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="update_model" class="model">
+        <div>
+            <a href="#" class="close1">X</a>
+        </div>
+        <div class="content">
+            <div class="wrapper">
+                <form>
+                    <!-- <div>
+                        <label>Title</label>
+                        <div><input type="text" id="title_box_update"></div>
+                    </div>
+                    <div>
+                        <label>Body</label>
+                        <div><textarea name="" id="body_box_update" cols="30" rows="10"></textarea></div>
+                    </div> -->
+
+                  
+                    <div>
+                        <label>Name</label>
+                        <div><input type="text" id="name-field-update"></div>
+                    </div>
+                    <div>
+                        <label>Description</label>
+                        <div><textarea name="" id="description-field-update" cols="30" rows="10"></textarea></div>
+                    </div>
+                    <div>
+                        <label>Image url</label>
+                        <div><input type="text" id="image-field-update"></div>
+                    </div>
+                    <div>
+                        <label>Price</label>
+                        <div><input type="text" id="price-field-update"></div>
+                    </div>
+
+
+                    <div class="buttons">
+                        <div style="width: 25%;">
+                            <button id="update">Update</button>
+                        </div>
+                        <div style="width: 25%;">
+                            <button id="cancel1">Cancel</button>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <h1>Data</h1>
+
+    <div class="btn">
+        <button id="add-data">Add data</button>
+    </div>
+
+    <table id="table" style="width: 100%;">
+        <thead style="width: 100%;">
+            <tr>
+                <th style="width: 16%;">id</th>
+                <th style="width: 12%;">name</th>
+                <th style="width: 16%;">description</th>
+                
+                <th style="width: 28%;">image</th>
+                <th style="width: 12%;">Price</th>
+                <th style="width: 16%;">Action</th>
+            </tr>
+        </thead>
+        
+        <tbody id="table_result">
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                
+            </tr>
+        </tbody>
+        
+        
+    </table>
+
+    <script src="dataBase.js"></script>
+</body>
+</html>

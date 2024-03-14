@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(212, 228, 212) ;
+}
+.cart-item {
+    border: 1px solid #ccc;
+   
+    margin-bottom: 1%;
+    background-color: rgb(212, 228, 212);
+}
+
+.cart-item img {
+    max-width: 15%;
+    max-height: 15%;
+}
+
+.cart-item-details {
+    border: 2px solid rgb(61, 76, 61);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart-item-name {
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+.cart-item-price {
+    color: green;
+    font-size: 18px;
+}
+
+.cart-item-quantity {
+    color: black;
+    font-size: 16px;
+}
+
+#totalPrice {
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    margin-top: 4%;
+    color: rgb(68, 54, 67);
+}
+.remove-button{
+    width: 6%;
+    padding: 0.5%;
+    margin-right: 2%;
+    background-color: #ff6347;;
+    color: white;
+    border: none;
+    
+}
+.remove-button:hover{
+    cursor: pointer;
+    color: black;
+    background-color:darkgrey;
+    box-shadow: 2px 2px black;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.add-button{
+    width: 6%;
+    padding: 0.5%;
+    margin-right: 2%;
+    background-color: #ff6347;;
+    color: white;
+    border: none;
+}
+.add-button:hover{
+    cursor: pointer;
+    color: black;
+    background-color:darkgrey;
+    box-shadow: 2px 2px black;
+    border: none;
+}
+
+#emptyCartButton {
+    background-color: #ff6347; /* Coral color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#emptyCartButton:hover{
+    cursor: pointer;
+    color: black;
+    background-color:darkgrey;
+    box-shadow: 2px 2px black;
+}

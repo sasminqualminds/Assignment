@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="postTask.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Posts Admin Portal</h1>
+    <div>Click below button to add a post</div>
+    <div>
+        <button id="button_a">Add Post</button>
+    </div>
+    <div id="add_method" class="model">
+        <div>
+            <a href="#" class="close">X</a>
+        </div>
+        <div class="content">
+            <div>
+                <form>
+                    <div>
+                        <label>Title</label>
+                        <div><input type="text" id="title_box"></div>
+                    </div>
+                    <div>
+                        <label>Body</label>
+                        <div><textarea name="" id="body_box" cols="30" rows="10"></textarea></div>
+                    </div>
+                    <div class="buttons">
+                        <div style="width: 25%;">
+                            <button id="add">Add Post</button>
+                        </div>
+                        <div style="width: 25%;">
+                            <button id="cancel">Cancel</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="update_model" class="model">
+        <div>
+            <a href="#" class="close1">X</a>
+        </div>
+        <div class="content">
+            <div class="wrapper">
+                <form>
+                    <div>
+                        <label>Title</label>
+                        <div><input type="text" id="title_box_update"></div>
+                    </div>
+                    <div>
+                        <label>Body</label>
+                        <div><textarea name="" id="body_box_update" cols="30" rows="10"></textarea></div>
+                    </div>
+                    <div class="buttons">
+                        <div style="width: 25%;">
+                            <button id="update">Update</button>
+                        </div>
+                        <div style="width: 25%;">
+                            <button id="cancel1">Cancel</button>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <table class="table_body" id="tb">
+        <thead>
+            <tr>
+                <th>title</th>
+                <th>body</th>
+                <th>id</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="table_result">
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                
+            </tr>
+            
+
+        </tbody>
+
+
+
+    </table>
+    <script src="postTask.js"></script>
+</body>
+
+</html>

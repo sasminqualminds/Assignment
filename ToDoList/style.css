@@ -1,0 +1,127 @@
+body{
+    background-color: teal;
+   background-size: cover;
+}
+.page{
+    background-color: rgb(0, 171, 171);
+    width: 60%;margin: auto; height: 100vh;
+    padding-top: 10%;
+    box-shadow: 0px 0px 2px 4px rgb(37, 37, 37);
+}.main{
+    /* border: 2px solid red; */
+    text-align: center;
+    box-sizing: border-box;
+    width:60%;
+    margin: auto;
+    background-color: rgb(0, 171, 171);
+    color: white;
+    
+}
+.shopping_name{
+    font-size: 35px;
+    font-weight: bold;
+    padding: 2%;
+    text-shadow: 2px 2px white;
+    color: black;
+}
+.search_box{
+    /* border: 2px solid black; */
+    padding: 4%;
+    font-size: 20px;
+}
+.search_box .search_items{
+    width: 80%;
+}
+
+.add_item{
+    /* border: 2px solid black; */
+    width: 60%;
+    margin: auto;
+    margin-top: 2%;
+    display: flex;
+}
+.add_item input{
+    width: 70%;
+    padding: 1%;
+}
+.add_item button{
+    border: 2px solid black;
+    width: 22%;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px 1px black;
+}
+.delete{
+    border: 1px solid black;
+   
+    /* text-align: center; */
+    background-color: teal;
+    color: white;
+    /* padding: 5%; */
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+ul{
+    list-style: none;
+    
+    padding-left: 0%;
+    
+}
+.items_list{
+    font-size: 30px;
+    margin-top: 10%;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+li{
+    font-size: 20px;
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 2%;   
+    box-shadow: 1px 1px 1px 1px black;
+    width: 100%;
+}
+.items_list_box{
+    width: 60%;
+    margin: auto;
+    
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(0, 171, 171);
+    color: black;
+}
+.delete:hover{
+    cursor: pointer;
+    background-color: rgb(0, 171, 171);
+    color: black;
+}
+.both{
+    display: flex;
+    width: 35%;
+    justify-content: space-between;
+}
+.item{
+    width: 74%;
+}
+.update{
+    border: 1px solid black;
+   
+    text-align: center;
+    background-color: teal;
+    color: white;
+   
+    box-shadow: 1px 1px 1px 1px black;
+ 
+}
+.update:hover{
+    cursor: pointer;
+    background-color: rgb(0, 171, 171);
+    color: black;
+}
